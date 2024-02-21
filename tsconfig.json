@@ -3,6 +3,14 @@
   // "esm": true,
   // "experimentalResolver": true,
   "compilerOptions": {
+    "paths": {
+      "common/*": ["./client/src/common/*"],
+      "pages/*": ["./client/src/pages/*"],
+      "app/*": ["./client/src/App/*"],
+      "store/*": ["./client/src/store/*"],
+      "features/*": ["./client/src/features/*"],
+      "entity/*": ["./client/src/entity/*"],
+    },
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "declaration": false,

@@ -69,9 +69,10 @@ export default {
     alias: {
       actions: path.resolve(DIR, 'client/src/actions'),
       assets: path.resolve(DIR, 'client/src/assets'),
-      components: path.resolve(DIR, 'client/src/components'),
-      hooks: path.resolve(DIR, 'client/src/hooks'),
-      utils: path.resolve(DIR, 'client/src/utils'),
+      components: path.resolve(DIR, 'client/src/common'),
+      features: path.resolve(DIR, 'client/src/features'),
+      entity: path.resolve(DIR, 'client/src/entity'),
+      lib: path.resolve(DIR, 'client/src/lib'),
     },
   },
 
